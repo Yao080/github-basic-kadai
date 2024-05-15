@@ -1,0 +1,40 @@
+PS C:\Users\formh\OneDrive\デスクトップ> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\formh\OneDrive\デスクトップ
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/05/15     14:08                git_challenge
+
+
+PS C:\Users\formh\OneDrive\デスクトップ> cd C:\Users\formh\OneDrive\デスクトップ\git_challenge
+PS C:\Users\formh\OneDrive\デスクトップ\git_challenge> git init
+Initialized empty Git repository in C:/Users/formh/OneDrive/繝・せ繧ｯ繝医ャ繝・git_challenge/.git/
+PS C:\Users\formh\OneDrive\デスクトップ\git_challenge> echo "" >> hello_world.txt
+PS C:\Users\formh\OneDrive\デスクトップ\git_challenge> echo "hello,world!" >> hello_world.txt
+PS C:\Users\formh\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+PS C:\Users\formh\OneDrive\デスクトップ\git_challenge> git commit -m "１回目のコミット"
+[main (root-commit) 1f5f4ff] ・大屓逶ｮ縺ｮ繧ｳ繝溘ャ繝
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\formh\OneDrive\デスクトップ\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\formh\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+PS C:\Users\formh\OneDrive\デスクトップ\git_challenge> git commit -m "２回目のコミット"
+[main 31f7117] ・貞屓逶ｮ縺ｮ繧ｳ繝溘ャ繝
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\formh\OneDrive\デスクトップ\git_challenge> git log --online
+fatal: unrecognized argument: --online
+PS C:\Users\formh\OneDrive\デスクトップ\git_challenge> git log
+commit 31f71175fef505f5b6fe14d2cfcae268e331fb05 (HEAD -> main)
+Author: Yao080
+Date:   Wed May 15 14:13:00 2024 +0900
+
+    ２回目のコミット
+
+commit 1f5f4ffb1f5031a1ba966c629a50d7fd4ba7601a
+Author: Yao080
+Date:   Wed May 15 14:12:15 2024 +0900
+
+    １回目のコミット
